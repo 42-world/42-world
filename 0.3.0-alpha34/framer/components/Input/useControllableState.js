@@ -1,1 +1,0 @@
-import*as n from"react";import{useCallback as T,useState as f}from"react";var p=({value:o,defaultValue:a,onChange:l})=>{let[s,r]=f(a),t=o!=null,u=t?o:s,c=T(e=>{typeof e=="function"&&(e=e()),t||r(e),l==null||l(e)},[]);return[u,c]};export{p as useControllableState};

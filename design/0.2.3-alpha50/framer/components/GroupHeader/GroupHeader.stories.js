@@ -1,1 +1,0 @@
-import*as o from"react";import{GroupHeader as t}from"./GroupHeader.js";var e={title:"rookies/GroupHeader",component:t},a={args:{text:"\uC778\uAE30\uAC8C\uC2DC\uAE00",href:"https://www.google.com"}},m=e;export{a as Primary,m as default};

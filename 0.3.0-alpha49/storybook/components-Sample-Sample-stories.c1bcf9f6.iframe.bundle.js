@@ -1,5 +1,0 @@
-"use strict";(()=>{var S=Object.defineProperty,E=Object.defineProperties;var P=Object.getOwnPropertyDescriptors;var p=Object.getOwnPropertySymbols;var g=Object.prototype.hasOwnProperty,O=Object.prototype.propertyIsEnumerable;var d=(r,e,s)=>e in r?S(r,e,{enumerable:!0,configurable:!0,writable:!0,value:s}):r[e]=s,o=(r,e)=>{for(var s in e||(e={}))g.call(e,s)&&d(r,s,e[s]);if(p)for(var s of p(e))O.call(e,s)&&d(r,s,e[s]);return r},t=(r,e)=>E(r,P(e));(self.webpackChunk_42world_design_core=self.webpackChunk_42world_design_core||[]).push([[854],{"./src/components/Sample/Sample.stories.ts":(r,e,s)=>{var m,n,c;s.r(e),s.d(e,{Primary:()=>a,__namedExportsOrder:()=>u,default:()=>i});var l=s("./src/components/Sample/Sample.tsx");const _={title:"rookies/Sample",component:l.d},a={args:{text:"Sample"}},i=_;a.parameters=t(o({},a.parameters),{docs:t(o({},(m=a.parameters)==null?void 0:m.docs),{source:o({originalSource:`{
-  args: {
-    text: 'Sample'
-  }
-}`},(c=(n=a.parameters)==null?void 0:n.docs)==null?void 0:c.source)})});const u=["Primary"]}}]);})();
