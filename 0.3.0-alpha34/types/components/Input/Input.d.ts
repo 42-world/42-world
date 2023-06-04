@@ -7,6 +7,7 @@ interface Props extends InputHTMLAttributes<HTMLInputElement> {
     variant: 'outline' | 'filled';
     hasError: boolean;
     rightAddon: ReactNode;
+    onValueChange: (value: string) => void;
 }
 export declare const Input: import("react").ForwardRefExoticComponent<Props & import("react").RefAttributes<HTMLInputElement>>;
 export {};
