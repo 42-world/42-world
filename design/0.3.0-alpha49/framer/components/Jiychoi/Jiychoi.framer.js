@@ -1,0 +1,1 @@
+import*as r from"react";import{FramerProvider as o}from"../../common/framer/index.js";import{Jiychoi as i}from"./Jiychoi.js";function c(){return r.createElement(o,null,r.createElement(i,null))}export{c as Jiychoi};
