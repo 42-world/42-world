@@ -14,6 +14,6 @@ export declare const textSizeConfig: Record<TextSize, string>;
 export declare const textWeightConfig: Record<TextWeight, string>;
 export declare const textAlignConfig: Record<TextAlign, string>;
 export declare const textColorConfig: Record<Theme, Record<Color, string>>;
-export declare function Text({ text, size, weight, align, color }: Props): JSX.Element;
+export declare function Text({ text, size, weight, align, color }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Text.d.ts.map

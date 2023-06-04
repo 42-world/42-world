@@ -3,6 +3,6 @@ interface Props {
     color: Color;
     className?: string;
 }
-export declare const CheckMarkIcon: ({ color: colorName, className }: Props) => JSX.Element;
+export declare const CheckMarkIcon: ({ color: colorName, className }: Props) => import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=CheckMarkIcon.d.ts.map

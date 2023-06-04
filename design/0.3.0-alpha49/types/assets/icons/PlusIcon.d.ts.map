@@ -1,1 +1,1 @@
-{"version":3,"file":"PlusIcon.d.ts","sourceRoot":"","sources":["../../../../src/assets/icons/PlusIcon.tsx"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,0BAA0B,CAAC;AAEtD,UAAU,KAAK;IACb,KAAK,EAAE,KAAK,CAAC;CACd;AAED,eAAO,MAAM,QAAQ,yBAA0B,KAAK,gBAUnD,CAAC"}
+{"version":3,"file":"PlusIcon.d.ts","sourceRoot":"","sources":["../../../../src/assets/icons/PlusIcon.tsx"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,0BAA0B,CAAC;AAEtD,UAAU,KAAK;IACb,KAAK,EAAE,KAAK,CAAC;CACd;AAED,eAAO,MAAM,QAAQ,yBAA0B,KAAK,4CAUnD,CAAC"}
