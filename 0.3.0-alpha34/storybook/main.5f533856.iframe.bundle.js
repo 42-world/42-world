@@ -919,7 +919,7 @@ html,
 
 .text-text-secondary_dark {
   --tw-text-opacity: 1;
-  color: rgb(186 186 186 / var(--tw-text-opacity));
+  color: rgb(41 41 41 / var(--tw-text-opacity));
 }
 
 .text-text-tertiary {
