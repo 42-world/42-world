@@ -1,1 +1,0 @@
-import*as t from"react";import{useTheme as o}from"../../context/index.js";function m(){let i=o();return t.createElement("div",{className:i==="light"?"text-text-primary":"text-color-white"},t.createElement("h1",null,"Jiychoi"),t.createElement("p",null,"Hi, I'm ",i," Jiychoi"),t.createElement("p",null,"Poam\uCD5C \uC9C0 \uBBF8\uCCD0\uB530\uC774"))}export{m as Jiychoi};
