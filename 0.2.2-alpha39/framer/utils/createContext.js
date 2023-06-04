@@ -1,1 +1,0 @@
-import*as a from"react";import{createContext as c,useContext as i}from"react";var u=r=>{let e=c(r),n=e.Provider;function s(t){let o=i(e);if(!o)throw new Error(`useContext must be used within a Provider, check this ${t!=null?t:""}`);return o}return[s,n]};export{u as createContext};
