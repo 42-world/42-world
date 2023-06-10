@@ -1,1 +1,1 @@
-import*as o from"react";function c(t){let e=window.document;t?e.documentElement.classList.add("dark"):e.documentElement.classList.remove("dark")}export{c as toggleTheme};
+import*as o from"react";import{isDarkTheme as r}from"./isDarkTheme.js";function c(e){let t=window.document;(e?e==="light":r())?t.documentElement.classList.remove("dark"):t.documentElement.classList.add("dark")}export{c as toggleTheme};

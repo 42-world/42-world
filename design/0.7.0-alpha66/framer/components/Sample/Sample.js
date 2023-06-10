@@ -1,1 +1,1 @@
-import*as t from"react";function p({text:r}){return t.createElement("p",{className:"text-pink-500 dark:text-gray-700"},'This is Sample! "',r,'"')}export{p as Sample};
+import*as t from"react";function r({text:e}){return t.createElement("p",{className:"text-blue-500 dark:text-pink-600"},'This is Sample! "',e,'"')}export{r as Sample};

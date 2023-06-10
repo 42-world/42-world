@@ -1,2 +1,2 @@
-export declare function toggleTheme(isDark: boolean): void;
+export declare function toggleTheme(initialTheme?: 'light' | 'dark'): void;
 //# sourceMappingURL=toggleTheme.d.ts.map
