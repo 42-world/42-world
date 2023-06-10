@@ -1,0 +1,1 @@
+import*as r from"react";import{FramerProvider as e,applyFramerProperties as m}from"../../common/framer/index.js";import{Badge as p}from"./Badge.js";function t(o){return r.createElement(e,null,r.createElement(p,{...o}))}m(t,{});export{t as Badge};
