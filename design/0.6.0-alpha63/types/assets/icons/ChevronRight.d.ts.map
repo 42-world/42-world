@@ -1,1 +1,1 @@
-{"version":3,"file":"ChevronRight.d.ts","sourceRoot":"","sources":["../../../../src/assets/icons/ChevronRight.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,OAAO,CAAC;AAEtC,KAAK,KAAK,GAAG,aAAa,CAAC,UAAU,CAAC,CAAC;AAEvC,eAAO,MAAM,YAAY,2DAMxB,CAAC"}
+{"version":3,"file":"ChevronRight.d.ts","sourceRoot":"","sources":["../../../../src/assets/icons/ChevronRight.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,OAAO,CAAC;AAEtC,UAAU,KAAM,SAAQ,aAAa,CAAC,UAAU,CAAC;CAAG;AAEpD,eAAO,MAAM,YAAY,UAAW,KAAK,4CAMxC,CAAC"}
