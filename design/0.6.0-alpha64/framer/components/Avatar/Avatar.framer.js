@@ -1,1 +1,0 @@
-import*as r from"react";import{FramerProvider as t,applyFramerProperties as a}from"../../common/framer/index.js";import{Avatar as m}from"./Avatar.js";function e(o){return r.createElement(t,null,r.createElement(m,{...o}))}a(e,{});export{e as Avatar};
