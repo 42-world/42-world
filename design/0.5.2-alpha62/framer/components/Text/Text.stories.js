@@ -1,1 +1,0 @@
-import*as t from"react";import{Text as o}from"./Text.js";var e={title:"rookies/Text",component:o},p={args:{text:"\uD14C\uC2A4\uD2B8 \uD14D\uC2A4\uD2B8\uC785\uB2C8\uB2E4!",size:"body1",weight:"medium"}},y=e;export{p as Primary,y as default};
