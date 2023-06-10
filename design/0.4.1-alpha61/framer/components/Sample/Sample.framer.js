@@ -1,0 +1,1 @@
+import*as r from"react";import{ControlType as o}from"framer";import{FramerProvider as m,applyFramerProperties as t}from"../../common/framer/index.js";import{Sample as p}from"./Sample.js";function a(e){return r.createElement(m,null,r.createElement(p,{...e}))}t(a,{text:{title:"Text",type:o.String,defaultValue:"Hello!"}});export{a as Sample};
