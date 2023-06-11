@@ -641,8 +641,8 @@ html,
   line-height:1rem;
 }
 
-.font-light{
-  font-weight:300;
+.font-medium{
+  font-weight:500;
 }
 
 .font-normal{
@@ -835,12 +835,22 @@ html,
   transition-duration:150ms;
 }
 
+.transition-transform{
+  transition-property:transform;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms;
+}
+
 .duration-300{
   transition-duration:300ms;
 }
 
 .ease-in-out{
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-out{
+  transition-timing-function:cubic-bezier(0, 0, 0.2, 1);
 }
 
 .placeholder\\:text-text-tertiary::-moz-placeholder{
@@ -880,6 +890,12 @@ html,
 .focus\\:outline-none:focus{
   outline:2px solid transparent;
   outline-offset:2px;
+}
+
+.active\\:scale-95:active{
+  --tw-scale-x:.95;
+  --tw-scale-y:.95;
+  transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\\:mt-5{
