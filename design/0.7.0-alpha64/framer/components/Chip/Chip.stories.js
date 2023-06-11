@@ -1,1 +1,0 @@
-import*as t from"react";import{BellIcon as o}from"../../assets/icons/index.js";import{Chip as e}from"./Chip.js";var r={title:"rookies/Chip",component:e},n={args:{children:o({color:"main_green_5"}),text:"Sample",selected:!1}},s={args:{text:"Sample",selected:!1}},i=r;export{n as Primary,s as PrimaryNoIcon,i as default};
