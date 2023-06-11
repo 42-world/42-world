@@ -1,0 +1,1 @@
+import*as t from"react";import{BellIcon as o}from"../../assets/icons/index.js";import{Chip as e}from"./Chip.js";var r={title:"rookies/Chip",component:e},s={args:{icon:o,text:"Sample",selected:!1}},n={args:{text:"Sample",selected:!1}},i=r;export{s as Primary,n as PrimaryNoIcon,i as default};
