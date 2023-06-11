@@ -373,10 +373,6 @@ html,
   display:flex;
 }
 
-.hidden{
-  display:none;
-}
-
 .aspect-16\\/10{
   aspect-ratio:16 / 10;
 }
