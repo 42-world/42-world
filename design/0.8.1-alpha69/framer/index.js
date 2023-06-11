@@ -350,6 +350,10 @@ html,
   margin-left:auto;
 }
 
+.mr-1{
+  margin-right:0.25rem;
+}
+
 .mr-2{
   margin-right:0.5rem;
 }
@@ -572,6 +576,14 @@ html,
 
 .bg-transparent{
   background-color:transparent;
+}
+
+.fill-black{
+  fill:#000;
+}
+
+.fill-yellow-400{
+  fill:#facc15;
 }
 
 .object-cover{
@@ -920,9 +932,8 @@ html,
   background-color:rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\\:text-pink-600){
-  --tw-text-opacity:1;
-  color:rgb(219 39 119 / var(--tw-text-opacity));
+:is(.dark .dark\\:fill-white){
+  fill:#fff;
 }
 
 :is(.dark .dark\\:text-text-primary_dark){
