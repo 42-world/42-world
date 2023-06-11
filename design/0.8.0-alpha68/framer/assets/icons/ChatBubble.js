@@ -1,1 +1,0 @@
-import*as t from"react";var o=r=>t.createElement("svg",{...r,viewBox:"0 0 24 24",fill:"currentColor"},t.createElement("path",{d:"M20 2H4c-1.1 0-2 .9-2 2v15.59c0 .89 1.08 1.34 1.71.71L6 18h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"}));export{o as ChatBubble};
