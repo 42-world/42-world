@@ -1,0 +1,1 @@
+import*as o from"react";import{Icon as t}from"./Icon.js";import{BellIcon as e}from"../../assets/icons/index.js";var r={title:"rookies/Icon",component:t},c={args:{children:e({color:"main_green_5"}),size:"xsmall"}},a=r;export{c as Primary,a as default};
