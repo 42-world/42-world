@@ -1,4 +1,4 @@
-import*as t from"react";var e="443c42d29a3df921dc181dfda55627c84aa5d8434e67b92fa91f029f72958f8e",r=`@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css');
+import*as t from"react";var r="443c42d29a3df921dc181dfda55627c84aa5d8434e67b92fa91f029f72958f8e",e=`@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css');
 
 *,
 ::before,
@@ -578,9 +578,9 @@ html,
   background-color:rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
-.bg-color-blue_200{
+.bg-color-system_200{
   --tw-bg-opacity:1;
-  background-color:rgb(0 122 255 / var(--tw-bg-opacity));
+  background-color:rgb(56 189 248 / var(--tw-bg-opacity));
 }
 
 .bg-transparent{
@@ -606,11 +606,6 @@ html,
 .object-cover{
   -o-object-fit:cover;
      object-fit:cover;
-}
-
-.px-0{
-  padding-left:0px;
-  padding-right:0px;
 }
 
 .px-2{
@@ -852,6 +847,18 @@ html,
   outline-style:solid;
 }
 
+.transition-all{
+  transition-property:all;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms;
+}
+
+.transition-colors{
+  transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms;
+}
+
 .transition-gap{
   transition-property:gap;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
@@ -904,7 +911,7 @@ html,
 
 .focus-within\\:border-color-blue_200:focus-within{
   --tw-border-opacity:1;
-  border-color:rgb(0 122 255 / var(--tw-border-opacity));
+  border-color:rgb(56 189 248 / var(--tw-border-opacity));
 }
 
 .focus-within\\:border-color-red:focus-within{
@@ -916,14 +923,14 @@ html,
   gap:0.5rem;
 }
 
-.hover\\:border-color-blue_200:hover{
+.hover\\:border-color-system_200:hover{
   --tw-border-opacity:1;
-  border-color:rgb(0 122 255 / var(--tw-border-opacity));
+  border-color:rgb(56 189 248 / var(--tw-border-opacity));
 }
 
-.hover\\:bg-color-blue_300:hover{
+.hover\\:bg-color-system_300:hover{
   --tw-bg-opacity:1;
-  background-color:rgb(0 86 179 / var(--tw-bg-opacity));
+  background-color:rgb(2 132 199 / var(--tw-bg-opacity));
 }
 
 .focus\\:outline-none:focus{
@@ -945,13 +952,13 @@ html,
   margin-top:-8px;
 }
 
-.group:hover .group-hover\\:fill-color-blue_200{
-  fill:#007AFF;
+.group:hover .group-hover\\:fill-color-system_200{
+  fill:#38BDF8;
 }
 
-.group:hover .group-hover\\:text-color-blue_200{
+.group:hover .group-hover\\:text-color-system_200{
   --tw-text-opacity:1;
-  color:rgb(0 122 255 / var(--tw-text-opacity));
+  color:rgb(56 189 248 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\\:border-border-primary_dark){
@@ -1011,8 +1018,8 @@ html,
   color:rgb(122 122 122 / var(--tw-text-opacity));
 }
 
-:is(.dark .hover\\:dark\\:border-color-blue_200):hover{
+:is(.dark .hover\\:dark\\:border-color-system_200):hover{
   --tw-border-opacity:1;
-  border-color:rgb(0 122 255 / var(--tw-border-opacity));
+  border-color:rgb(56 189 248 / var(--tw-border-opacity));
 }
-`;(function(){if(!document.getElementById(e)){var n=document.createElement("style");n.id=e,n.textContent=r,document.head.appendChild(n)}})();export*from"./components/index.js";export*from"./utils/index.js";
+`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=e,document.head.appendChild(n)}})();export*from"./components/index.js";export*from"./utils/index.js";
