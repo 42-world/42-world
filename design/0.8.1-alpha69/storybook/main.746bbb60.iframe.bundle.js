@@ -534,16 +534,16 @@ html,
   --tw-backdrop-sepia:  ;
 }
 
+.ml-1{
+  margin-left: 0.25rem;
+}
+
 .ml-3{
   margin-left: 0.75rem;
 }
 
 .ml-auto{
   margin-left: auto;
-}
-
-.mr-1{
-  margin-right: 0.25rem;
 }
 
 .mr-2{
