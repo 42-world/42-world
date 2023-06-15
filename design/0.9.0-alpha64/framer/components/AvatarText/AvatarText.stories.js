@@ -1,1 +1,0 @@
-import*as t from"react";import{AvatarText as o}from"./AvatarText.js";var e={title:"rookies/AvatarText",component:o},p={args:{src:"https://picsum.photos/536/354",alt:"42world",size:"40px",mainText:"\uADDC\uB3D9\uD55C\uADF8\uB987\uC8FC\uC18C"}},m=e;export{p as Primary,m as default};
