@@ -1,0 +1,1 @@
+import*as r from"react";import{FramerProvider as t}from"../../common/framer/index.js";import{Button as m}from"./Button.js";function f(o){return r.createElement(t,null,r.createElement(m,{...o}))}export{f as Button};
