@@ -1,1 +1,1 @@
-import*as t from"react";function o(){return window.document.documentElement.classList.contains("dark")}export{o as isDarkTheme};
+import*as e from"react";function o(){return typeof window=="undefined"?!1:window.document.documentElement.classList.contains("dark")}export{o as isDarkTheme};

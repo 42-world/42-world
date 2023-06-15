@@ -960,4 +960,4 @@ html,
   --tw-text-opacity:1;
   color:rgb(122 122 122 / var(--tw-text-opacity));
 }
-`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=o,document.head.appendChild(n)}})();import{toggleTheme as i}from"../../utils/index.js";import{useFramerThemeData as c}from"./useFramerThemeData.js";function b({children:n}){let e=c();return a(()=>{i(e?"dark":"light")},[e]),t.createElement(t.Fragment,null,n)}export{b as FramerProvider};
+`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=o,document.head.appendChild(n)}})();import{setTheme as i}from"../../utils/index.js";import{useFramerThemeData as c}from"./useFramerThemeData.js";function b({children:n}){let e=c();return a(()=>{i(e?"dark":"light")},[e]),t.createElement(t.Fragment,null,n)}export{b as FramerProvider};
