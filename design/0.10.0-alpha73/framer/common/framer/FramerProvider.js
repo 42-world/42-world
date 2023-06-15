@@ -945,6 +945,10 @@ html,
   margin-top:-8px;
 }
 
+.group:hover .group-hover\\:fill-color-blue_200{
+  fill:#007AFF;
+}
+
 .group:hover .group-hover\\:text-color-blue_200{
   --tw-text-opacity:1;
   color:rgb(0 122 255 / var(--tw-text-opacity));
@@ -997,4 +1001,4 @@ html,
   --tw-text-opacity:1;
   color:rgb(122 122 122 / var(--tw-text-opacity));
 }
-`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=o,document.head.appendChild(n)}})();import{setTheme as i}from"../../utils/index.js";import{useFramerThemeData as c}from"./useFramerThemeData.js";function g({children:n}){let e=c();return a(()=>{i(e?"dark":"light")},[e]),t.createElement(t.Fragment,null,n)}export{g as FramerProvider};
+`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=o,document.head.appendChild(n)}})();import{setTheme as i}from"../../utils/index.js";import{useFramerThemeData as c}from"./useFramerThemeData.js";function b({children:n}){let e=c();return a(()=>{i(e?"dark":"light")},[e]),t.createElement(t.Fragment,null,n)}export{b as FramerProvider};

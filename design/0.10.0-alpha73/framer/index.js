@@ -945,6 +945,10 @@ html,
   margin-top:-8px;
 }
 
+.group:hover .group-hover\\:fill-color-blue_200{
+  fill:#007AFF;
+}
+
 .group:hover .group-hover\\:text-color-blue_200{
   --tw-text-opacity:1;
   color:rgb(0 122 255 / var(--tw-text-opacity));
