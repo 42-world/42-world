@@ -954,6 +954,11 @@ html,
   color:rgb(0 122 255 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\\:border-border-primary_dark){
+  --tw-border-opacity:1;
+  border-color:rgb(82 82 82 / var(--tw-border-opacity));
+}
+
 :is(.dark .dark\\:bg-bg-primary_alpha_0_dark){
   background-color:#00000000;
 }
@@ -971,6 +976,10 @@ html,
 :is(.dark .dark\\:bg-border-secondary_dark){
   --tw-bg-opacity:1;
   background-color:rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\\:fill-text-secondary_dark){
+  fill:#BABABA;
 }
 
 :is(.dark .dark\\:fill-white){
@@ -1001,4 +1010,9 @@ html,
   --tw-text-opacity:1;
   color:rgb(122 122 122 / var(--tw-text-opacity));
 }
-`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=o,document.head.appendChild(n)}})();import{setTheme as i}from"../../utils/index.js";import{useFramerThemeData as c}from"./useFramerThemeData.js";function b({children:n}){let e=c();return a(()=>{i(e?"dark":"light")},[e]),t.createElement(t.Fragment,null,n)}export{b as FramerProvider};
+
+:is(.dark .hover\\:dark\\:border-color-blue_200):hover{
+  --tw-border-opacity:1;
+  border-color:rgb(0 122 255 / var(--tw-border-opacity));
+}
+`;(function(){if(!document.getElementById(r)){var n=document.createElement("style");n.id=r,n.textContent=o,document.head.appendChild(n)}})();import{setTheme as i}from"../../utils/index.js";import{useFramerThemeData as c}from"./useFramerThemeData.js";function g({children:n}){let e=c();return a(()=>{i(e?"dark":"light")},[e]),t.createElement(t.Fragment,null,n)}export{g as FramerProvider};
