@@ -1,0 +1,1 @@
+import*as r from"react";import{FramerProvider as e}from"../../common/framer/index.js";import{IconText as t}from"./IconText.js";function f(o){return r.createElement(e,null,r.createElement(t,{...o}))}export{f as IconText};
