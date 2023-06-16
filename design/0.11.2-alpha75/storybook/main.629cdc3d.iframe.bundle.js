@@ -858,6 +858,10 @@ html,
   fill: #FFFFFF;
 }
 
+.fill-text-primary{
+  fill: #000000;
+}
+
 .fill-text-secondary{
   fill: #737373;
 }
@@ -1290,6 +1294,10 @@ html,
 :is(.dark .dark\\:bg-border-secondary_dark){
   --tw-bg-opacity: 1;
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\\:fill-text-primary_dark){
+  fill: #FFFFFF;
 }
 
 :is(.dark .dark\\:fill-text-secondary_dark){
