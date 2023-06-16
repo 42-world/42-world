@@ -1,1 +1,0 @@
-import*as o from"react";import{FramerProvider as m}from"../../common/framer/index.js";import{Comment as e}from"./Comment.js";function f(r){return o.createElement(m,null,o.createElement(e,{...r}))}export{f as Comment};
