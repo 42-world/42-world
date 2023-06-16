@@ -6,6 +6,6 @@ interface ButtonProps {
     icon?: FC<SVGAttributes<SVGSVGElement>>;
 }
 type Props = ButtonProps & Omit<ButtonHTMLAttributes<HTMLButtonElement>, keyof ButtonProps>;
-export declare function Button({ text, variant, icon, ...restProps }: Props): import("react/jsx-runtime").JSX.Element;
+export declare function Button({ variant, text, icon, ...restProps }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Button.d.ts.map
