@@ -721,6 +721,10 @@ html,
   padding-bottom:3px;
 }
 
+.pl-4{
+  padding-left:1rem;
+}
+
 .text-left{
   text-align:left;
 }
