@@ -1,4 +1,4 @@
-import*as t from"react";var r="443c42d29a3df921dc181dfda55627c84aa5d8434e67b92fa91f029f72958f8e",o=`@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css');
+import*as t from"react";var r="e195d5f65a7bf9aaf1f88df6ea6912078f998d33d9c918cf4a8632e441a718d3",o=`@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css');
 
 *,
 ::before,
