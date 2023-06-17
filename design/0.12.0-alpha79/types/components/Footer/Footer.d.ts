@@ -1,8 +1,8 @@
 interface Props {
-    onClickGithub?: () => void;
-    onClickMail?: () => void;
+    githubLink?: string;
+    mailLink?: string;
     text: string;
 }
-export declare function Footer({ onClickGithub, onClickMail, text }: Props): import("react/jsx-runtime").JSX.Element;
+export declare function Footer({ githubLink, mailLink, text }: Props): import("react/jsx-runtime").JSX.Element;
 export {};
 //# sourceMappingURL=Footer.d.ts.map

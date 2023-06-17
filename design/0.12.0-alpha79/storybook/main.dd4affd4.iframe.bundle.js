@@ -618,6 +618,11 @@ html,
   height: 44px;
 }
 
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .w-10{
   width: 2.5rem;
 }

@@ -1,1 +1,1 @@
-import*as o from"react";import{Footer as t}from"./Footer.js";var e={title:"rookies/Footer",component:t},m={args:{text:"@ 2022. Team ROOK!ES"}},a=e;export{m as Primary,a as default};
+import*as t from"react";import{Footer as o}from"./Footer.js";var e={title:"rookies/Footer",component:o},a={args:{githubLink:"https://github.com",mailLink:"mailto:asdf@naver.com",text:"@ 2022. Team ROOK!ES"}},p=e;export{a as Primary,p as default};
