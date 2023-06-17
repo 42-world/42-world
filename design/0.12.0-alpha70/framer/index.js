@@ -523,6 +523,10 @@ html,
   overflow-wrap:break-word;
 }
 
+.rounded{
+  border-radius:0.25rem;
+}
+
 .rounded-2xl{
   border-radius:1rem;
 }

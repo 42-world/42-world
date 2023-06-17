@@ -1,1 +1,1 @@
-import*as t from"react";import{Thumbnail as o}from"./Thumbnail.js";var r={title:"rookies/Thumbnail",component:o},p={args:{src:"https://picsum.photos/536/354",alt:"42world",width:269,ratio:"16:9"}},a=r;export{p as Primary,a as default};
+import*as t from"react";import{Thumbnail as o}from"./Thumbnail.js";var r={title:"rookies/Thumbnail",component:o},m={args:{src:"https://picsum.photos/536/354",alt:"42world",width:269,rounded:"16px",ratio:"16:9"}},a=r;export{m as Primary,a as default};
