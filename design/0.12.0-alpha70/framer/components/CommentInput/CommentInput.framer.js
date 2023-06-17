@@ -1,1 +1,1 @@
-import*as r from"react";import{FramerProvider as m}from"../../common/framer/index.js";import{CommentInput as t}from"./CommentInput.js";function f(o){return r.createElement(m,null,r.createElement(t,{...o}))}export{f as CommentInput};
+import*as r from"react";import{applyFramerProperties as m,FramerProvider as t}from"../../common/framer/index.js";import{CommentInput as e}from"./CommentInput.js";function p(o){return r.createElement(t,null,r.createElement(e,{...o}))}m(p,{});export{p as CommentInput};
