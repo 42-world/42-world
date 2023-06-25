@@ -1,0 +1,1 @@
+import*as t from"react";import{CommentInput as o}from"./CommentInput.js";var e={title:"rookies/CommentInput",component:o},p={args:{placeholder:"\uAC10\uC0AC\uD569\uB2C8\uB2E4!"}},n=e;export{p as Primary,n as default};
