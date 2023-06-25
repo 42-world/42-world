@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Code Builder</title>
-</head>
-<body>
-
-	<h2> Go to framer and paste code below </h2>
+  </head>
+  <body>
+    <h2>Go to framer and paste code below</h2>
 
     <pre id="result"></pre>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const basePath = urlParams.get('base_path');
-            const alphaVersion = urlParams.get('alpha_version');
+      document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const basePath = urlParams.get("base_path");
+        const version = urlParams.get("version");
 
-            if (basePath && alphaVersion) {
-                const code = `import { Text } from "https://42-world.github.io/${basePath}/${alphaVersion}/framer/components/Text/Text.framer.js"\n\nexport default Text as React.ComponentType`;
-                document.getElementById('result').textContent = code;
-            } else {
-                document.getElementById('result').textContent = "base_path and alpha_version query parameters are required.";
-            }
-        });
+        if (basePath && version) {
+          const code = `import { Text } from "https://42-world.github.io/${basePath}/${version}/framer/components/Text/Text.framer.js"\n\nexport default Text as React.ComponentType`;
+          document.getElementById("result").textContent = code;
+        } else {
+          document.getElementById("result").textContent =
+            "base_path and version query parameters are required.";
+        }
+      });
     </script>
-</body>
+  </body>
 </html>
-
