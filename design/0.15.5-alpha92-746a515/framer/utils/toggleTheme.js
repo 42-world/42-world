@@ -1,0 +1,1 @@
+import*as e from"react";import{isDarkTheme as r}from"./isDarkTheme.js";import{setTheme as t}from"./setTheme.js";function f(){typeof window!="undefined"&&t(r()?"light":"dark")}export{f as toggleTheme};
