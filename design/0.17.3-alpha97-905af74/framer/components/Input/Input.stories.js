@@ -1,0 +1,1 @@
+import*as o from"react";import{Input as e}from"./Input.js";var r={title:"rookies/Input",component:e},t={args:{label:"\uD544\uC218 \uD56D\uBAA9",placeholder:"",maxLength:10,variant:"outline",hasError:!1}},n={args:{...t.args,defaultValue:"\uAE30\uBCF8\uAC12"}},l={args:{...t.args,subLabel:"Sub Label"}},s=r;export{n as DefaultValue,t as Primary,l as SubLabel,s as default};
