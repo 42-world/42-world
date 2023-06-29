@@ -1,0 +1,1 @@
+import*as r from"react";import{ControlType as e}from"framer";import{FramerProvider as i,applyFramerProperties as t}from"../../common/framer/index.js";import{Divider as m}from"./Divider.js";function p(o){return r.createElement(i,null,r.createElement(m,{...o}))}t(p,{variant:{title:"Variant",type:e.Enum,options:["primary","secondary"],defaultValue:"primary"}});export{p as Divider};
