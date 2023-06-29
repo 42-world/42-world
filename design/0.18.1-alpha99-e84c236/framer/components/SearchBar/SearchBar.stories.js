@@ -1,0 +1,1 @@
+import*as o from"react";import{SearchBar as r}from"./SearchBar.js";var t={title:"rookies/SearchBar",component:r},p={args:{placeholder:"Yes, I am Gyudong"}},m={args:{variant:"solid",placeholder:"Yes, I am Gyudon"}},n=t;export{p as Primary,m as Solid,n as default};
