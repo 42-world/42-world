@@ -1,0 +1,1 @@
+import*as t from"react";import{Thumbnail as o}from"./Thumbnail.js";var r={title:"rookies/Thumbnail",component:o},p={args:{src:"https://picsum.photos/536/354",alt:"Lorem Ipsum",width:269,rounded:"16px",ratio:"16:9"}},a=r;export{p as Primary,a as default};
