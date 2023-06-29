@@ -1,1 +1,0 @@
-import*as t from"react";import{CommentInput as o}from"./CommentInput.js";var e={title:"rookies/CommentInput",component:o},n={args:{placeholder:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}},p=e;export{n as Primary,p as default};
