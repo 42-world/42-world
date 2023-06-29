@@ -18,7 +18,7 @@
         const version = urlParams.get("version");
 
         if (basePath && version) {
-          const code = `import { Text } from "https://42-world.github.io/${basePath}/${version}/framer/components/Text/Text.framer.js"\n\nexport default Text as React.ComponentType`;
+          const code = `import { Text } from "https://pages.rookies.kr/${basePath}/${version}/framer/components/Text/Text.framer.js"\n\nexport default Text as React.ComponentType`;
           document.getElementById("result").textContent = code;
         } else {
           document.getElementById("result").textContent =
