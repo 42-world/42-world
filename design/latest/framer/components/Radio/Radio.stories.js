@@ -1,0 +1,1 @@
+import*as t from"react";import{Radio as o}from"./Radio.js";var e={title:"rookies/Radio",component:o},p={args:{label:"\uB77C\uB514\uC624"}},s={args:{label:"\uB77C\uB514\uC624",selected:!0}},i={args:{label:"\uB77C\uB514\uC624",disabled:!0}},l=e;export{i as Disabled,p as Primary,s as Selected,l as default};
