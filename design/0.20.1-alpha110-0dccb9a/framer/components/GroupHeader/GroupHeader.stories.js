@@ -1,1 +1,0 @@
-import*as o from"react";import{GroupHeader as t}from"./GroupHeader.js";var e={title:"rookies/GroupHeader",component:t},m={args:{text:"Lorem ipsum",href:"https://github.com"}},a=e;export{m as Primary,a as default};
