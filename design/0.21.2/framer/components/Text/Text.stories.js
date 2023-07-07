@@ -1,0 +1,1 @@
+import*as o from"react";import{Text as r}from"./Text.js";var e={title:"rookies/Text",component:r},t={args:{text:"Lorem ipsum",size:"body1",weight:"medium"}},p={args:{...t.args,align:"right"}},s={args:{...t.args,align:"center"}},i={args:{...t.args,color:"secondary"}},m=e;export{s as AlignCenter,p as AlignRight,i as ColorSecondary,t as Primary,m as default};
