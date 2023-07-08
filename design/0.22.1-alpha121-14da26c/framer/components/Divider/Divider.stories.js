@@ -1,0 +1,1 @@
+import*as t from"react";import{Divider as o}from"./Divider.js";var r={title:"rookies/Divder",component:o},i={args:{variant:"primary"}},p={args:{variant:"secondary"}},n=r;export{i as Primary,p as Secondary,n as default};
