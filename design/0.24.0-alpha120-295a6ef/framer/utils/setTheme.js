@@ -1,0 +1,1 @@
+import*as d from"react";function n(t){if(typeof window=="undefined")return;let e=window.document;t==="dark"?e.documentElement.classList.add("dark"):e.documentElement.classList.remove("dark")}export{n as setTheme};
