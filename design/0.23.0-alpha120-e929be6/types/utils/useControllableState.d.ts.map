@@ -1,1 +1,0 @@
-{"version":3,"file":"useControllableState.d.ts","sourceRoot":"","sources":["../../../src/utils/useControllableState.ts"],"names":[],"mappings":"AAEA,UAAU,yBAAyB,CAAC,CAAC;IACnC,KAAK,CAAC,EAAE,CAAC,CAAC;IACV,YAAY,EAAE,CAAC,GAAG,CAAC,MAAM,CAAC,CAAC,CAAC;IAC5B,QAAQ,CAAC,EAAE,CAAC,KAAK,EAAE,CAAC,KAAK,IAAI,CAAC;CAC/B;AAED,eAAO,MAAM,oBAAoB,mJA2BhC,CAAC"}
