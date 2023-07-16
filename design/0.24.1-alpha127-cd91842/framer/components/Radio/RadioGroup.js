@@ -1,1 +1,0 @@
-import*as e from"react";import{createContext as r}from"react";var n=r(null);function p({children:t,...o}){return e.createElement(n.Provider,{value:{...o}},e.createElement("fieldset",{className:"flex flex-col gap-2"},t))}export{n as RadioContext,p as RadioGroup};
