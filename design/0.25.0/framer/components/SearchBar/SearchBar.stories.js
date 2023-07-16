@@ -1,0 +1,1 @@
+import*as o from"react";import{SearchBar as r}from"./SearchBar.js";var t={title:"rookies/SearchBar",component:r},p={args:{placeholder:"Lorem Ipsum"}},m={args:{variant:"solid",placeholder:"Lorem Ipsum"}},c=t;export{p as Primary,m as Solid,c as default};
