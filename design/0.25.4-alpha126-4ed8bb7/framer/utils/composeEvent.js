@@ -1,1 +1,0 @@
-import*as p from"react";function u(t,f,{checkForDefaultPrevented:c=!0}={}){return function(s){if(t==null||t(s),c===!1||!s.defaultPrevented)return f==null?void 0:f(s)}}export{u as composeEventHandlers};
